@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles_robopage.css">
+    <title>RoboTech - Avances en robótica</title>
+</head>
+<body>
+    <!-- Header logo + navegación principal-->
+     <header>
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <span>RoboTech</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#acercade">Acerca de</a></li>
+                    <li><a href="#robots">Robots</a></li>
+                    <li><a href="#aplicaciones">Aplicaciones</a></li>
+                    <li><a href="contacto.html">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+     </header>
+
+     <!-- Aside -->
+
+     <aside class="main-sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <h3> Novedades RoboTech</h3>
+                <button class="sidebar-toggle" aria-label="Toggle sidebar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>Ultimas Noticias</h4>
+                <div class="news-item">
+                    <span class="news-badge">Nuevo</span>
+                    <p>Robots potenciados por IA ahora llegando con aplicaciones en la cirujía</p>
+                    <span class="news-date">Sep 12, 2025</span>
+                </div>
+                <div class="news-item">
+                    <span class="news-badge">Actualización</span>
+                    <p>Conferencia de Robótica agendada para el siguiente mes</p>
+                    <span class="news-date">Ago 14, 2025</span>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h4>Enlaces rápidos</h4>
+                <ul class="sidebar-links">
+                    <li><a href="#"><i class="fas fa-book"></i> Artículos de Investigación</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i> Videos Tutoriales</a></li>
+                    <li><a href="#"><i class="fas fa-calendar"></i> Eventos</a></li>
+                    <li><a href="#"><i class="fas fa-download"></i> Recursos</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h4>Suscribirte</h4>
+                <p>Obten las noticias más novedosas en robótica</p>
+                <form class="sidebar-form">
+                    <input type="email" placeholder="Tu correo electrónico">
+                    <button type="submit" class="btn">Suscribirte</button>
+                </form>
+            </div>
+        </div>
+
+        <button class="sidebar-open-btn" aria-label="Open sidebar">
+             <i class="fas fa-bars"></i>
+            <span>Ultimas Actualizaciones</span>
+        </button>
+     </aside>
+
+     <!-- Boton para abrir sidebar (inicialmente escondido) -->
+
+
+     <!--Sección Hero - Sección principal con imagen de fondo + mensaje-->
+     <section id="inicio", class="hero">
+        <div class="container hero-content">
+            <h1>El futuro de la robótica</h1>
+            <p>Descubre los más nuevos avances en la inteligencia artificial y robótica que están transformando el mundo</p>
+            <a href="#acercade", class="btn">Explorar más</a>
+        </div>
+     </section>
+
+     <!-- Sección acerca de - Sección informativa sobre robótica-->
+      <section id="acercade", class="acercade">
+        <div class="container">
+            <div class="section-title">
+                <h2>Acerca de la Robótica</h2>
+                <p>Conoce como la robótica ha cambiado al mundo</p>
+            </div>
+            <div class="acercade-content">
+                <div class="acercade-text">
+                    <p>
+                        La robótica es un campo interdisciplinario que combina ingeniería, ciencia de la computación y otras disciplinas para diseñar, construir y utilizar robots. Estos sistemas automatizados pueden realizar tareas de manera autónoma o semiautónoma, y se utilizan en una amplia variedad de entornos.
+                    </p>
+                    <p>
+                        Los avances recientes en inteligencia artificial han permitido que los robots sean más capaces, flexibles y autónomos que nunca. Desde la manufactura hasta la medicina, los robots están transformando industrias enteras.
+                    </p>
+                    <a href="#robots" class="btn">Ver Robots</a>
+                </div>
+                <div class="acercade-img">
+                    <img src="https://www.telefonica.com/es/wp-content/uploads/sites/4/2023/06/Motor-of-robotic-arm-on-isolated-background.-Mechanical-hand.-Industrial-robot-manipulator.-Modern-industrial-technology.Welding-concept.jpg" alt="Robot Industrial">
+
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <!--Sección de robots: Mostrar los diferentes tipos de robots-->
+      <section id="robots" class="robots">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tipos de Robots</h2>
+                <p>Explora la diversidad de clases de robots modernos</p>
+            </div>
+            <div class="robot-grid">
+                <div class="robot-card">
+                    <div class="robot-image">
+                        <img src="https://www.edsrobotics.com/wp-content/uploads/2020/12/tipos-robots-industriales.jpg" alt="Robot Industrial">
+                    </div>
+                    <div class="robot-info">
+                        <h3>Robots Industriales</h3>
+                        <p>
+                            Utilizados en líneas de ensamblaje y manufactura para tareas repetitivas de alta precisión.
+                        </p>
+                    </div>
+                </div>
+                <div class="robot-card">
+                    <div class="robot-image">
+                        <img src="https://www.marketresearchintellect.com/images/blogs/from-science-fiction-to-reality-the-evolution-of-medical-robots.webp" alt="Robot médico">
+                    </div>
+                    <div class="robot-info">
+                        <h3 >Robots Médicos</h3>
+                        <p>sisten en cirugías, rehabilitación y cuidado de pacientes con una precisión excepcional.</p>
+                    </div>
+                </div>
+                <div class="robot-card">
+                    <div class="robot-image">
+                        <img src="https://www.azorobotics.com/images/Article_Images/ImageForArticle_690_17149480000603845.jpg" alt="Robot de asistencia">
+                    </div>
+                    <div class="robot-info">
+                        <h3>Robots de Servicio</h3>
+                        <p>Diseñados para asistir en tareas domésticas, logística y atención al cliente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+      </section>
+
+      <!-- Sección de aplicaciones de la robótica -->
+       <section id="aplicaciones" class="aplicaciones">
+        <div class="container">
+            <div class="section-title">
+                <h2>Aplicaciones de la Robótica</h2>
+                <p>Descubre como los robots están transofrmando las industrias</p>
+            </div>
+            <div class="apps-container">
+                <div class="app-box">
+                    <i class="fas fa-industry"></i>
+                    <h3>Manufactura</h3>
+                    <p>Automatización de líneas de producción y ensamblaje de productos.</p>
+                </div>
+                <div class="app-box">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Medicina</h3>
+                    <p>Cirugías de precisión, diagnóstico y rehabilitación de pacientes.</p>
+                </div>
+                <div class="app-box">
+                    <i class="fas fa-home"></i>
+                    <h3>Doméstica</h3>
+                    <p>Aspiradoras automáticas, cortacéspedes y sistemas de seguridad.</p>
+                </div>
+                <div class="app-box">
+                    <i class="fas fa-space-shuttle"></i>
+                    <h3>Exploración</h3>
+                    <p>Misiones espaciales, oceanografía y entornos peligrosos.</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <h3>¿Interesado en saber más?</h3>
+                <p>Ponte en contacto con nuestro equipo</p>
+                <a href="contacto.html" class="btn">Contactar ahora</a>
+            </div>
+        </div>
+       </section>
+
+       <!-- Footer -->
+        
+       <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RoboTech</h3>
+                    <p>Explorando el futuro de la Robótica y la Inteligencia Artifical.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces rápidos</h3>
+                    <p><a href="#inicio"></a>Inicio</p>
+                    <p><a href="#acercade"></a>Acerca de</p>
+                    <p><a href="#robots"></a>Robots</p>
+                    <p><a href="#aplicaciones"></a>Aplicaciones</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Tecnológica 123</p>
+                    <p><i class="fas fa-phone"></i> +51 987 654 321</p>
+                    <p><i class="fas fa-envelope"></i> robotech@gmail.com</p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 UNT Programación II - Todos los derechos reservados.</p>
+            </div>
+        </div>
+       </footer>
+
+       <script>
+        // deslizado más suave
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        // animación para los elementos al hacer deslizado
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animated');
+                }
+            });
+        });
+
+        document.querySelectorAll('.app-box, .robot-card').forEach(el => {
+            observer.observe(el)
+        })
+
+        //sidebar funcionalidad
+        document.addEventListener('DOMContentLoaded', function() {
+            const sidebar = document.querySelector('.main-sidebar');
+            const sidebarToggle = document.querySelector('.sidebar-toggle');
+            const sidebarOpenBtn = document.querySelector('.sidebar-open-btn');
+            const body = document.body;
+
+            //Función para abrir el sidebar
+            function openSidebar() {
+                sidebar.classList.add('active');
+                body.classList.add('sidebar-active');
+            }
+
+            //Función para cerrar el sidebar
+            function closeSidebar() {
+                sidebar.classList.remove('active');
+                body.classList.remove('sidebar-active')
+            }
+
+            //activar sidebar al tocar el botón
+            if (sidebarToggle) {
+                sidebarToggle.addEventListener('click', closeSidebar);
+            }
+
+            if (sidebarOpenBtn) {
+                sidebarOpenBtn.addEventListener('click', openSidebar);
+            }
+
+            //cerrar sidebar al hacer click afuera
+            document.addEventListener('click', function(event) {
+                if (sidebar.classList.contains('active') && !sidebar.contains(event.target) && event.target !== sidebarOpenBtn) {
+                    closeSidebar();
+                }
+            });
+            
+            //cerrar sidebar al tocar la tecla escape
+            document.addEventListener('keydown', function(event)  {
+                if (event.key === 'Escape' && sidebar.classList.contains('active')) {
+                    closeSidebar();
+                }
+            });
+        });
+
+        </script>
+</body>
+</html>    
+        
